@@ -11,7 +11,7 @@
 ---
 
 ## 📋 Sobre o Projeto
-Este repositório contém o firmware do sistema de visão do **Road Vision Car**. Diferente de sistemas que transmitem vídeo via Wi-Fi para processamento externo (o que gera latência), este código realiza a **análise vetorial de cores diretamente no microcontrolador**.
+Esta organização contém o firmware do sistema de visão do **Road Vision Car**. Diferente de sistemas que transmitem vídeo via Wi-Fi para processamento externo (o que gera latência), este código realiza a **análise vetorial de cores diretamente no microcontrolador**.
 
 O sistema captura frames, converte o formato nativo RGB565 para o espaço de cores HSV e calcula a média cromática de uma Região de Interesse (ROI) central, permitindo tomadas de decisão em milissegundos.
 
